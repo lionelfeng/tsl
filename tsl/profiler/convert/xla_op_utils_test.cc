@@ -22,7 +22,7 @@ namespace profiler {
 namespace {
 
 TEST(XlaOpUtilsTest, HloModuleNameWithProgramId) {
-  EXPECT_EQ("module(123)", HloModuleNameWithProgramId("module", 123));
+  EXPECT_EQ("module(456)", HloModuleNameWithProgramId("module", 456));
 }
 
 }  // namespace
